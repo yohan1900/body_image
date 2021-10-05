@@ -1,0 +1,102 @@
+* {
+  font-family: "Jua", sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
+.image-wrap {
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.face_img {
+  background-image: url(img/face.jpg);
+  background-size: cover;
+  border: solid 1px red;
+  display: flex;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.l_ears {
+  /* border: solid 1px blue; */
+  cursor: pointer;
+  display: flex;
+  position: absolute;
+  opacity: 0;
+  height: 70px;
+  left: 165px;
+  top: 42%;
+}
+
+.r_ears {
+  /* border: solid 1px blue; */
+  cursor: pointer;
+  display: flex;
+  position: absolute;
+  opacity: 0;
+  height: 70px;
+  right: 18px;
+  top: 39%;
+}
+
+.nose {
+  /* border: solid 1px blue; */
+  cursor: pointer;
+  display: flex;
+  position: absolute;
+  opacity: 0;
+  width: 70px;
+  height: 30px;
+  right: 26%;
+  top: 55%;
+}
+
+.mouth {
+  /* border: solid 1px blue; */
+  cursor: pointer;
+  display: flex;
+  position: absolute;
+  opacity: 0;
+  right: 27%;
+  top: 68%;
+  width: 60px;
+  height: 30px;
+}
+
+.l_eye {
+  /* border: solid 1px blue; */
+  cursor: pointer;
+  display: flex;
+  position: absolute;
+  opacity: 0;
+  width: 50px;
+  left: 48%;
+  top: 42%;
+}
+
+.r_eye {
+  /* border: solid 1px blue; */
+  cursor: pointer;
+  display: flex;
+  position: absolute;
+  opacity: 0;
+  right: 15%;
+  width: 55px;
+  top: 41%;
+}
+
+.footer {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.nav_hader {
+  font-size: 40px;
+}
